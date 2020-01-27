@@ -2,48 +2,112 @@ body,
 html {
   width: 100%;
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed; 
+  font-family: 'Montserrat', black;
+  background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
+
 }
+.saflex {
+    display: -webkit-flex;
+}
+
+.welcome {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
 h1 {
-  /*text-transform: uppercase;*/
-  color: #d7d7d7;
-  font-size: 2.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: lowercase;
 }
 
-hr{
-  border-color: #2F7C96;
-  border-width: 3px;
-  max-width: 65px;
+h3 a {
+    padding: 0px 25px;
 }
 
-.buffer {
-  height: 10rem;
+a {
+    color: lightgrey;
+    transition: all 0.5s;
 }
 
-.btn {
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase
+a:hover {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
 }
 
-.btn-primary {
-  background-color: #2F7C96;
-  border-color: #2F7C96;
+
+
+
+.instabtn {
+    display: block;
+    background-image: url(images/ig-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: 5px;
 }
 
-.btn-primary:hover {
-  background-color: #0A536B;
-  border-color: #0A536B;
-  transition: all 1s;
-  transform: scale(1.1)
+.instabtn:hover {
+    transition: all 0.5s;
+    opacity: 1;
 }
 
-.btn-xl {
-  padding: 1rem 2rem;
+.ytbtn {
+    display: block;
+    background-image: url(images/yt-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: 5px;
 }
 
+.ytbtn:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.vimbtn {
+    display: block;
+    background-image: url(images/vim-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.vimbtn:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.lnbtn {
+    display: block;
+    background-image: url(images/ln-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.lnbtn:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}

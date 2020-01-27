@@ -1,0 +1,274 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', light;
+  color: white;
+  background-color: black;
+
+}
+
+nav {
+    padding-bottom: 150px;
+    font-size: 1.5rem;
+}
+
+nav a {
+    padding: 0px 25px;
+}
+
+.signature {
+    background-image: url(images/name-sig.png) no-repeat;
+    background-size: 25px;
+}
+
+.category {
+    padding-top: 200px;
+    padding-bottom: 200px;
+   opacity: 100%;
+    text-align: center;
+}
+
+.firstcat {
+    padding-top: 50px;
+    padding-bottom: 200px;
+   opacity: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    opacity: 100%;
+    font-family: 'Montserrat', black;
+    font-weight: bold;
+}
+
+.travelp {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/bg-travel.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 85%;
+}
+
+.people {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/bg-people.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 35%;
+}
+
+.dancep {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-dance.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.misc {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-misc.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 100% 65%;
+}
+
+.travelv {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-travel2.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 60% 40%;
+}
+
+.foodbeast {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-foodbeast.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 100% 50%;
+}
+
+.dancev {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-dance2.JPG); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.soccont {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-soccont.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 48%;
+}
+
+.musvid {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-musvid.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 85%;
+}
+
+a {
+    color: lightgrey;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+h1 a {
+    color: white;
+}
+
+h1 a:hover {
+    color: white;
+    font-size: 6rem;
+    transition: all 0.5s;
+}
+
+
+.instabtn {
+    display: block;
+    background-image: url(images/ig-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.instabtn:hover {
+    transition: all 0.5s;
+    opacity: 100%;
+}
+
+.ytbtn {
+    display: block;
+    background-image: url(images/yt-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.ytbtn:hover {
+    transition: all 0.5s;
+    opacity: 100%;
+}
+
+.vimbtn {
+    display: block;
+    background-image: url(images/vim-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.vimbtn:hover {
+    transition: all 0.5s;
+    opacity: 100%;
+}
+
+.lnbtn {
+    display: block;
+    background-image: url(images/ln-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.lnbtn:hover {
+    transition: all 0.5s;
+    opacity: 100%;
+}
+
+.social {
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+img {
+    width: 400px;
+    margin: 10px;
+    transition: all 0.3s;
+    align-self: center;
+}
+
+img:hover {
+    transform: scale(1.1);
+    margin: 20px;
+}
+
+.photocontent {
+    padding: 2rem 0rem;
+    width: 100%;
+}
+
+.videocontent {
+    color: black;
+    min-height: 600px;
+}
+.role {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.role h3{
+    font-weight: bold;
+}
+
+.role h4 {
+    font-style: italic;
+}
+.videopost {
+    padding: 2rem 2rem;
+    width: 80%;
+
+}
+.video{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.photocontent iframe {
+    max-width: 400px;
+    max-height: 400px;
+}
