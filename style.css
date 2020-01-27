@@ -111,3 +111,18 @@ a:hover {
     transition: all 0.5s;
     opacity: 1;
 }
+.embtn {
+    display: block;
+    background-image: url(images/em-icon.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.embtn:hover {
+    transition: all 0.5s;
+    opacity: 1;
+}
