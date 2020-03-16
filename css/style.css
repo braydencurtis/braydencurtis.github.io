@@ -18,7 +18,7 @@ nav a {
 }
 
 .signature {
-    background-image: url(images/name-sig.png) no-repeat;
+    background-image: url(../images/name-sig.png) no-repeat;
     background-size: 25px;
 }
 
@@ -44,7 +44,7 @@ h1 {
 }
 
 .travelp {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/bg-travel.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/bg-travel.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,7 +53,7 @@ h1 {
 }
 
 .people {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/bg-people.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/bg-people.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .dancep {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-dance.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-dance.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .misc {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-misc.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-misc.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,7 +80,7 @@ h1 {
 }
 
 .travelv {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-travel2.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-travel2.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .foodbeast {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-foodbeast.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-foodbeast.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .dancev {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-dance2.JPG); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-dance2.JPG); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .soccont {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-soccont.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-soccont.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,7 +116,7 @@ h1 {
 }
 
 .musvid {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(images/bg-musvid.png); 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/bg-musvid.png); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,7 +148,7 @@ h1 a:hover {
 
 .instabtn {
     display: block;
-    background-image: url(images/ig-icon.png);
+    background-image: url(../images/ig-icon.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
@@ -164,7 +164,7 @@ h1 a:hover {
 
 .ytbtn {
     display: block;
-    background-image: url(images/yt-icon.png);
+    background-image: url(../images/yt-icon.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
@@ -180,7 +180,7 @@ h1 a:hover {
 
 .vimbtn {
     display: block;
-    background-image: url(images/vim-icon.png);
+    background-image: url(../images/vim-icon.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
@@ -196,7 +196,7 @@ h1 a:hover {
 
 .lnbtn {
     display: block;
-    background-image: url(images/ln-icon.png);
+    background-image: url(../images/ln-icon.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
@@ -212,7 +212,7 @@ h1 a:hover {
 
 .embtn {
     display: block;
-    background-image: url(images/em-icon.png);
+    background-image: url(../images/em-icon.png);
     background-size: 40px;
     width: 40px;
     height: 40px;
