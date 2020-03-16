@@ -124,6 +124,15 @@ h1 {
   background-position: 50% 85%;
 }
 
+.code {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/code.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 70%; 
+}
+
 a {
     color: lightgrey;
     transition: all 0.5s;
