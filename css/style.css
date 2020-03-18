@@ -262,6 +262,26 @@ h1 a:hover {
     color: black;
     min-height: 600px;
 }
+
+.codecontent {
+    color: black;
+    min-height: 600px;
+    width: 100%;
+    padding: 25px;
+}
+
+.code-post {
+    width: 100%;
+}
+
+.code-preview {
+    width: 30%;
+}
+
+.codecontent img {
+    width: 100%;
+}
+
 .role {
     text-align: center;
     padding-bottom: 10px;
