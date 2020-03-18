@@ -264,18 +264,30 @@ h1 a:hover {
 }
 
 .codecontent {
-    color: black;
-    min-height: 600px;
+    color: white;
     width: 100%;
-    padding: 25px;
+    padding: 0;
+    
 }
 
 .code-post {
     width: 100%;
+    margin: 0;
+}
+
+.green {
+    background: #0CE8AE;
+
+}
+
+.red {
+    background: #FF5041;
 }
 
 .code-preview {
-    width: 30%;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .codecontent img {
@@ -294,6 +306,21 @@ h1 a:hover {
 .role h4 {
     font-style: italic;
 }
+
+.codecontent .role {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 60px;
+}
+
+.codecontent .role ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
 .videopost {
     padding: 2rem 2rem;
     width: 80%;
